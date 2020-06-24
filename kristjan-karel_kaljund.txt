@@ -1,0 +1,13 @@
+total 40
+drwxr-xr-x 2 alice alice    4096 May  4 14:56 alice
+drwxr-xr-x 2 bob   bob      4096 May  4 14:56 bob
+-rw-r--r-- 1 georg lugejad     0 May  4 14:59 file.sh
+drwxr-xr-x 2 georg georg    4096 May  4 14:59 georg
+drwxr-xr-x 2 gerog gerog    4096 May  4 14:55 gerog
+drwx------ 2 root  root    16384 Mar 15 13:49 lost+found
+drwxr-xr-x 2 mark  mark     4096 May  4 14:56 mark
+drwxr-xr-x 4 user  user     4096 May  4 15:02 user
+uid=1005(georg) gid=1006(georg) groups=1006(georg)
+uid=1002(alice) gid=1002(alice) groups=1002(alice),1005(lugejad)
+uid=1003(mark) gid=1003(mark) groups=1003(mark)
+uid=1004(bob) gid=1004(bob) groups=1004(bob),1005(lugejad)
