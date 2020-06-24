@@ -1,0 +1,15 @@
+#!/bin/bash
+#skripti algus
+echo
+echo -n "Sisesta a kylje vaartus:"
+read a
+echo -n "Siesesta b kylje vaartus"
+read b
+#arvutused
+a_ruut=$(($a ** 2))	#a ruudus
+b_ruut=$(($b ** 2))	#b ruudus
+c_ruut=$(($a_ruut+$b_ruut))
+c=`echo "scale=2;sqrt($c_ruut)"|bc` # bc arvutab ruutjuurt
+#lopptulemus
+echo "c=$c"
+#lopp

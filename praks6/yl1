@@ -1,0 +1,16 @@
+#!/bin/bash
+#algus
+#
+#andmte kogumine
+#
+echo -e "Sisesta arv: \c"
+read arv
+jaak=$(($arv % 2))
+#"if" kasklus
+if test $jaak -eq 0
+then
+	echo "Antud arv on paaris"
+else
+	echo "Antud arv on paaritu"
+fi
+#lopp

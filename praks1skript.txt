@@ -1,0 +1,34 @@
+
+Disk /dev/sda: 12 GiB, 12884901888 bytes, 25165824 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x99c8e79b
+
+Device     Boot    Start      End  Sectors  Size Id Type
+/dev/sda1  *        2048   976895   974848  476M 83 Linux
+/dev/sda2         978942 25163775 24184834 11.5G  5 Extended
+/dev/sda5         978944  3907583  2928640  1.4G 82 Linux swap / Solaris
+/dev/sda6        3909632  6838271  2928640  1.4G 83 Linux
+/dev/sda7        6840320  9768959  2928640  1.4G 83 Linux
+/dev/sda8        9771008 19730431  9959424  4.8G 83 Linux
+/dev/sda9       19732480 25163775  5431296  2.6G 83 Linux
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:50:56:b8:08:6f brd ff:ff:ff:ff:ff:ff
+    inet 192.168.16.169/20 brd 192.168.31.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::250:56ff:feb8:86f/64 scope link 
+       valid_lft forever preferred_lft forever
+3: eth1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 00:50:56:b8:e8:5d brd ff:ff:ff:ff:ff:ff
+ 14:31:24 up 11 min,  1 user,  load average: 0.00, 0.00, 0.00
+Linux skriptkris 3.16.0-6-amd64 #1 SMP Debian 3.16.56-1+deb8u1 (2018-05-08) x86_64 GNU/Linux
+skriptkris

@@ -1,0 +1,16 @@
+#!bin/bash
+#
+#skripti algus
+#
+#inimeste arv
+echo -n "Sisesta reisijate arv:"
+read reisijad
+#kohtade arv
+echo -n "Sisesta kohtade arv bussis:"
+read kohad
+#arvutused
+bussid=`expr $reisijad / $kohad`
+ylejaanud=`expr $reisijad % $kohad`
+#tulemuste valjastamine
+echo "Kokku on vaja $bussid taisbussi ja sellega jaab veel $ylejaanud inimest ilma kohata"
+#lopp

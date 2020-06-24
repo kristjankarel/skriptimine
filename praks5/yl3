@@ -1,0 +1,16 @@
+#!bin/bash
+#
+#skripti algus
+#
+#andmete kogumine
+#
+echo "Pyhapaev - 0, Esmaspaev - 1, Teisipaev - 2, Kolmapaev - 3, Neljapaev - 4, Reede - 5, Laupaev - 6"
+echo -n "Sisesta millal ara soidad:"
+read reisi_algus
+echo -n "Sisesta reisi oopaevade arv:"
+read paevad
+#arvutused
+veel_reisi_paevad=$(($paevad % 7))
+tagasi=$(($reisi_algus + $veel_reisi_paevad))
+echo "Tagasi oled paeval number $tagasi"
+#lopp

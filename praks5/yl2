@@ -1,0 +1,15 @@
+#!/bin/bash
+#andmete sisestus
+echo
+echo -n "Sisesta a kyle vaartus:"
+read a
+echo -n "Sisesta b kylje vaartus:"
+read b
+echo -n "Sisesta c kylje vaartus:"
+read c
+#arvutused
+p=`echo "scale=2;($a+$b+$c)/2"|bc`	#p
+s=`echo "scale=2;sqrt($p*($p-$a)*($p-$b)*($p-$c))"|bc`	#pindala
+#lopptulemus
+echo "pindala=$s"
+#lopp

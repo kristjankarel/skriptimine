@@ -1,0 +1,12 @@
+#!bin/bash
+#
+#skripti algus
+#
+echo
+#
+#tuleb sisestada aastaarvu
+#
+echo -n "Sisesta aastarv:"
+read aastaarv
+#loeb aastaarvu
+echo "$aastaarv aastal valiti Eesti presidendiks Kersti Kaljulaid"
